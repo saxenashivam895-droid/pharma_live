@@ -13,7 +13,6 @@ import KnowledgeSummit from "./component/KnowledgeSummit";
 import NewFeatures from "./component/NewFeatures";
 import PricingSection from "./component/PricingSection";
 import SecureSpot from "./component/SecureSpot";
-import ExpoSectors from "./component/Patner";
 import PieChart from "./component/Patner";
 import ContactDetails from "./component/ContactDetails";
 import KnowledgeChart from "./component/KnowledgeChart";
