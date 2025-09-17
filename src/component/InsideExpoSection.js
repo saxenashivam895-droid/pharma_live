@@ -6,7 +6,6 @@ import {
   FaSpa,
   FaCheckCircle,
 } from "react-icons/fa";
-import InsideShowCasing from "../assets/showcasing.png";
 
 const InsideExpoSection = () => {
   const categories = [

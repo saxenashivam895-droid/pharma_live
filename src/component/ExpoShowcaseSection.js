@@ -40,9 +40,10 @@ const ExpoShowcaseSection = () => {
       },
       { threshold: 0.3 }
     );
-    if (statsRef.current) observer.observe(statsRef.current);
+    const currentRef = statsRef.current; // Capture the ref value
+    if (currentRef) observer.observe(currentRef);
     return () => {
-      if (statsRef.current) observer.unobserve(statsRef.current);
+      if (currentRef) observer.unobserve(currentRef); // Use captured value
     };
   }, [started]);
 
