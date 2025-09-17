@@ -48,7 +48,7 @@ const PieChart = () => {
   ];
 
   const scrollRef = useRef(null);
-    const [scrollPosition, setScrollPosition] = useState(0);
+    const [, setScrollPosition] = useState(0);
     const animationRef = useRef(null);
   
     useEffect(() => {

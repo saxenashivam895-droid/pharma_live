@@ -3,7 +3,7 @@ import empowering from "../assets/empowering.jpg";
 
 function KnowledgeSummit() {
   const [isExpanded, setIsExpanded] = useState(false);
-  const [isMobile, setIsMobile] = useState(window.innerWidth <= 768);
+  const [isMobile] = useState(false);
 
   const fullText = `The Knowledge Summit presents an unparalleled opportunity for innovative startups in the pharmaceutical industry to showcase their cutting-edge technologies, products, and services at the Pharma Live Expo 2026. This premier platform is designed to empower emerging entrepreneurs with visibility, networking opportunities, and growth prospects in the ever-evolving pharmaceutical sector. For the next generation of visionaries, this is more than an expo; it’s a gateway to innovation, collaboration, and industry transformation. 
 
